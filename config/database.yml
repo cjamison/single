@@ -80,7 +80,7 @@ test:
 #
 staging:
   <<: *default
-  database: single_production
+  database: single_staging
 #  username: single
 #  password: <%= ENV['SINGLE_DATABASE_PASSWORD'] %>
 #
